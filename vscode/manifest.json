@@ -1,0 +1,8 @@
+{
+    "name": "vscode",
+    "description": "VS Code IDE 集成适配器，通过 WebSocket 与 VS Code Extension 通信",
+    "platform": "vscode",
+    "version": "0.1.0",
+    "author": "KiraAI",
+    "icon": null
+}

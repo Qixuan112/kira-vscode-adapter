@@ -1,0 +1,26 @@
+{
+  "host": {
+    "name": "WebSocket 主机地址",
+    "type": "string",
+    "default": "127.0.0.1",
+    "hint": "WebSocket 服务监听的主机地址"
+  },
+  "port": {
+    "name": "WebSocket 端口",
+    "type": "int",
+    "default": 9527,
+    "hint": "WebSocket 服务监听的端口号"
+  },
+  "auto_register_tools": {
+    "name": "自动注册 VS Code Tools",
+    "type": "switch",
+    "default": true,
+    "hint": "启动时自动向 LLM 注册 VS Code 相关 Tools"
+  },
+  "workspace_path": {
+    "name": "指定工作区路径",
+    "type": "string",
+    "default": "",
+    "hint": "指定 AI 操作的工作区目录（留空则使用 VS Code 当前打开的工作区）"
+  }
+}
